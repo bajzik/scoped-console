@@ -1,9 +1,15 @@
 # @bajzik/scoped-console
 
 [![npm version](https://img.shields.io/npm/v/@bajzik/scoped-console)](https://www.npmjs.com/package/@bajzik/scoped-console)
+[![TypeScript](https://img.shields.io/badge/TypeScript-yes-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![npm downloads](https://img.shields.io/npm/dm/@bajzik/scoped-console)](https://www.npmjs.com/package/@bajzik/scoped-console)
 [![license](https://img.shields.io/npm/l/@bajzik/scoped-console)](https://github.com/bajzik/scoped-console/blob/master/LICENSE)
+
 [![CI](https://github.com/bajzik/scoped-console/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/bajzik/scoped-console/actions/workflows/ci.yml)
+[![issues](https://img.shields.io/github/issues/bajzik/scoped-console)](https://github.com/bajzik/scoped-console/issues)
+
+
+[![Socket Badge](https://badge.socket.dev/npm/package/@bajzik/scoped-console)](https://badge.socket.dev/npm/package/@bajzik/scoped-console)
 [![bundle size](https://img.shields.io/bundlephobia/minzip/@bajzik/scoped-console)](https://bundlephobia.com/package/@bajzik/scoped-console)
 
 Tag your logs with scopes, filter them in real time, and watch them stream into a sleek in-page panel — without touching DevTools.
