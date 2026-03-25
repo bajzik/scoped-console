@@ -1,5 +1,11 @@
 # @bajzik/scoped-console
 
+[![npm version](https://img.shields.io/npm/v/@bajzik/scoped-console)](https://www.npmjs.com/package/@bajzik/scoped-console)
+[![npm downloads](https://img.shields.io/npm/dm/@bajzik/scoped-console)](https://www.npmjs.com/package/@bajzik/scoped-console)
+[![license](https://img.shields.io/npm/l/@bajzik/scoped-console)](https://github.com/bajzik/scoped-console/blob/master/LICENSE)
+[![CI](https://github.com/bajzik/scoped-console/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/bajzik/scoped-console/actions/workflows/ci.yml)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/@bajzik/scoped-console)](https://bundlephobia.com/package/@bajzik/scoped-console)
+
 Tag your logs with scopes, filter them in real time, and watch them stream into a sleek in-page panel — without touching DevTools.
 
 No dependencies. Framework agnostic. Zero cost in production.
