@@ -1,0 +1,54 @@
+{
+  "name": "@bajzik/scoped-console",
+  "version": "1.0.0",
+  "description": "Framework-agnostic runtime scoped console with in-page panel",
+  "type": "module",
+  "license": "MIT",
+  "author": "Jakub Bajzath",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bajzik/scoped-console.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bajzik/scoped-console/issues"
+  },
+  "homepage": "https://github.com/bajzik/scoped-console#readme",
+  "keywords": [
+    "console",
+    "logger",
+    "logging",
+    "scoped",
+    "debug",
+    "devtools",
+    "developer-tools"
+  ],
+  "exports": {
+    ".": {
+      "development": "./dist/development/index.mjs",
+      "production": "./dist/production/index.mjs",
+      "import": "./dist/development/index.mjs",
+      "require": "./dist/development/index.cjs",
+      "types": "./dist/development/index.d.ts"
+    }
+  },
+  "main": "./dist/development/index.cjs",
+  "module": "./dist/development/index.mjs",
+  "types": "./dist/development/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "pnpm run build && pnpm run test:run"
+  },
+  "devDependencies": {
+    "tsdown": "^0.21.4",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
+  }
+}
